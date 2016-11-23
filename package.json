@@ -1,0 +1,17 @@
+{
+  "name": "listenhistory-itunes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "es6-promise": "^4.0.5",
+    "form-data": "^2.1.2",
+    "isomorphic-fetch": "^2.2.1",
+    "playback": "^0.2.0"
+  }
+}
