@@ -12,6 +12,6 @@
     "es6-promise": "^4.0.5",
     "form-data": "^2.1.2",
     "isomorphic-fetch": "^2.2.1",
-    "playback": "ryo33/playback#c18e2a3f6f591eddec61c31b6d1e49ab6f8cd5aa"
+    "@ryo33/playback": "^0.2.0"
   }
 }

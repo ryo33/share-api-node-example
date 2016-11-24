@@ -7,7 +7,7 @@ const USER_SECRET = COMBINED_KEY.split("_")[1]
 
 require('es6-promise').polyfill()
 require('isomorphic-fetch')
-var itunes = require('playback')
+var itunes = require('@ryo33/playback')
 var FormData = require('form-data')
 
 function call_api(path, method, opts) {
