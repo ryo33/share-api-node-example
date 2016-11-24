@@ -52,6 +52,7 @@ function start_app(token) {
 
 function send(token, data) {
   var name = data.name, artist = data.artist, album = data.album
+  if (name == null || artist == null || album == null) return
   call_api('/api/users/' + USER_ID + '/play', 'post', {
     headers: {
       'Authorization': 'Bearer ' + token
