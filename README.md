@@ -1,11 +1,11 @@
 # listen-history-itunes
+[sha.herokuapp.com API](https://gist.github.com/ryo33/145e5ef24bad6f11abbb902edc6979d6)
 
 ## Installation
-Clone this repository.  
+- Clone this repository.  
+- Change `USER_ID` and `USER_SECRET` of [app.js](app.js).
 
 ## Usage
-Access to [https://listenhistory.herokuapp.com/api-key](https://listenhistory.herokuapp.com/api-key) and copy your `COMBINED_KEY`.  
-Paste the `COMBINED_KEY` to the first line of `app.js`.  
 ```bash
 $ npm start
 ```
